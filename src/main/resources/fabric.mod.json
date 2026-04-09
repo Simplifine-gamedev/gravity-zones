@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "gravity-zones",
+  "version": "1.0.0",
+  "name": "Gravity Zones",
+  "description": "Random chunks have flipped gravity - fall upward in gravity zones!",
+  "authors": ["ali77sina"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.orca.gravityzones.GravityZonesMod"]
+  },
+  "mixins": ["gravity-zones.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
